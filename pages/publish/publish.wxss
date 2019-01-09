@@ -1,0 +1,25 @@
+/* pages/publish/publish.wxss */
+#title {
+    margin-bottom: 40px;
+}
+
+.line {
+    margin-top: 5px;
+}
+
+#center_board {
+    width: 300px;
+    margin: 0px auto;
+}
+
+#btn_board {
+    margin-top: 20px;
+}
+
+#submit {
+    font-size: 16px;
+}
+
+#copyright {
+    margin-top: 40px;
+}

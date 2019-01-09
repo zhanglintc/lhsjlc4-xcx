@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/publish/publish",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "可用车位"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "发布车位"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "个人信息"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

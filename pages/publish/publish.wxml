@@ -1,0 +1,47 @@
+<view id="center_board">
+  <h2 id="title">停车位发布</h2>
+
+  <view class="line">
+    开始时间:
+    <select id="selYear_s"></select>
+    <select id="selMonth_s"></select>
+    <select id="selDate_s"></select>
+    <select id="selHour_s"></select>
+  </view>
+
+  <view class="line">
+    结束时间:
+    <select id="selYear_e"></select>
+    <select id="selMonth_e"></select>
+    <select id="selDate_e"></select>
+    <select id="selHour_e"></select>
+  </view>
+
+  <view class="line">
+    车位区域:
+    <input type="radio" name="area" onchange="setParking_DeckPlaceholder()" value="A" checked="checked">A区</input>
+    <input type="radio" name="area" onchange="setParking_DeckPlaceholder()" value="B">B区</input>
+    <input type="radio" name="area" onchange="setParking_DeckPlaceholder()" value="C">C区</input>
+  </view>
+
+  <view class="line">
+    车位编号:
+    <input id="parking_deck" type="tel" maxlength="3"></input>
+  </view>
+
+  <view class="line">
+    范围确认:
+    <span id="period_cfm"></span>
+  </view>
+
+  <view class="line">
+    时长确认:
+    <span id="time_cfm"></span>
+  </view>
+
+  <view id="btn_board">
+    <button id="submit">提交</button>
+  </view>
+
+  <view id="copyright"></view>
+</view>
